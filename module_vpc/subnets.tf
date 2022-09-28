@@ -15,9 +15,10 @@ resource "aws_subnet" "thhiis" {
   for_each = local.subnets_pub
 
   vpc_id     = aws_vpc.this.id
-
+map_public_ip_on_launch = true
   availability_zone = each.key
   cidr_block = each.value
+  
 
   tags = {
     Name = "Public_subnet"

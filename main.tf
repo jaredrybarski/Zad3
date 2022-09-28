@@ -2,7 +2,7 @@
 
 module "vpc" {
   source = "./module_vpc"
-  
+  rtpubass = module.vpc.subnet_pub_ids
   
 }
 
