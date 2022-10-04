@@ -18,7 +18,7 @@ resource "aws_instance" "machine-pub" {
   instance_type = "t2.micro"
 
   subnet_id = each.value
-  key_name = "mainc"
+  key_name  = "mainc"
 
   tags = {
     Name = "VM"

@@ -1,3 +1,3 @@
 variable "rtpubass" {
-    type = map(string)
+  type = map(string)
 }
