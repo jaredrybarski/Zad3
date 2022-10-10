@@ -1,3 +1,5 @@
+# if you wanna be fancy try cidrsubnet or cidrsubnets functions - https://www.terraform.io/language/functions/cidrsubnet
+
 locals {
   subnets_pub = {
     eu-west-1a = "10.0.0.0/24"
