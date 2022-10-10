@@ -24,3 +24,6 @@ resource "aws_instance" "machine-pub" {
     Name = "VM"
   }
 }
+
+
+# the hell is module_ec2 — skrót.lnk????? - remove xDD
