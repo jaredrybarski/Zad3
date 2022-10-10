@@ -1,4 +1,5 @@
-resource "aws_subnet" "this" {
+# Ice cream I SCREAM XDDDDDDD
+resource "aws_subnet" "this" { # this -> private / priv
   for_each = local.subnets_priv
 
   vpc_id = aws_vpc.this.id
@@ -11,7 +12,7 @@ resource "aws_subnet" "this" {
   }
 }
 
-resource "aws_subnet" "thhiis" {
+resource "aws_subnet" "thhiis" { # thhiis -> public / pub
   for_each = local.subnets_pub
 
   vpc_id                  = aws_vpc.this.id
