@@ -1,6 +1,8 @@
 # This file is maintained automatically by "terraform init".
 # Manual edits may be lost in future updates.
 
+# Ususally this file lands in .gitignore, because of pipelines
+# Also you have an option to constraint versions in code, which in my (and most of terraform users) opinion better approach
 provider "registry.terraform.io/hashicorp/aws" {
   version = "4.32.0"
   hashes = [
