@@ -1,3 +1,6 @@
+# I know you delete them but please for the love of god: named profiles
+# If I ever see stuff like that again idk, I'll purge the repo or sth xD
+
 variable "access_key" {
   type        = string
   description = "access key"
