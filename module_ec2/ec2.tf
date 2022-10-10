@@ -7,6 +7,7 @@ resource "aws_instance" "machine-priv" {
   subnet_id = each.value
 
   tags = {
+    # usually cloud-native tagging is done in lowercase (that is my default at least) unless specified otherwise
     Name = "VM"
   }
 }
