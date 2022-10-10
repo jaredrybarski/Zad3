@@ -1,4 +1,4 @@
-resource "aws_route_table" "public_route_table" {
+resource "aws_route_table" "public_route_table" {   # public_route_table -> public
   vpc_id = aws_vpc.this.id
 
   route {
@@ -12,7 +12,7 @@ resource "aws_route_table" "public_route_table" {
 }
 
 
-resource "aws_route_table_association" "public_subnet_route_table_association" {
+resource "aws_route_table_association" "public_subnet_route_table_association" {  # public_subnet_route_table_association -> public - it should be straightforward enought + both are in the same file
 
   for_each       = var.rtpubass
   subnet_id      = each.value
