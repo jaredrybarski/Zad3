@@ -1,7 +1,7 @@
-variable "machine-priv" {  # machine-priv -> machine_priv
+variable "machine_priv" {  # machine-priv -> machine_priv
   type = map(string)
 }
 
-variable "machine-pub" {   # machine-pub -> machine_pub
+variable "machine_pub" {   # machine-pub -> machine_pub
   type = map(string)
 }
