@@ -1,6 +1,6 @@
-resource "aws_security_group" "sg_priv_id" {
-  name        = "sg_priv_id"
-  description = "Allow  inbound traffic"
+resource "aws_default_security_group" "default" {
+  
+  
   vpc_id      = aws_vpc.this.id
 
 

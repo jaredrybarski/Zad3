@@ -18,3 +18,4 @@ output "subnets_pub" {
   # In the shape of an "L"
   # on her forehead
 }
+

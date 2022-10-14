@@ -5,3 +5,4 @@ variable "machine_priv" {  # machine-priv -> machine_priv
 variable "machine_pub" {   # machine-pub -> machine_pub
   type = map(string)
 }
+
